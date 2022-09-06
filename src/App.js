@@ -9,7 +9,7 @@ function App() {
   //not working, explicitly returning
   const updateCardName = async (val) => {
     setCardName(val);
-    return false;
+    return true;
   };
 
   // working
